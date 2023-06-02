@@ -109,13 +109,13 @@ with col1:
     st.write('Days of forecast:', nb_days)
     st.write('Date selected:', forecast_date)
 with col2:
-    st.dataframe(data=df, width=600, height=300)
+    st.dataframe(data=df)
     
 col1, col2 = st.columns(2)
 
 with col1:
     m = generate_map()
-    st_folium.folium_static(m, height=300, width=450)
+    st_folium.folium_static(m)
 with col2:
     st.plotly_chart(prophet_process(df, home_airport, paired_airport, nb_days))
     
