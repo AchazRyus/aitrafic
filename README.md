@@ -3,6 +3,8 @@ airtraffic
 
 Predict Air Traffic by routes
 
+Streamlit app : https://achazryus-aitrafic-app-jc5f6x.streamlit.app/
+
 Project Organization
 ------------
 
