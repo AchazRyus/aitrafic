@@ -14,10 +14,9 @@ Project Organization
     │
     ├── models               			<- Directory to store models
     │
-    ├── analyze_traffic_dataset.ipynb       	<- Notebool that produces models
+    ├── analyze_traffic_dataset.ipynb       	<- Notebook that produces models
     │
     ├── requirements.txt   			<- The requirements file for reproducing the analysis environment, e.g. generated with `pip freeze > requirements.txt`
     │                        
-    │
     └── app.py         				<- Code of the streamlit application
 
